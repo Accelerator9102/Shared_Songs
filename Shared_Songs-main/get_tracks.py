@@ -1,3 +1,11 @@
+#-------------------------------------------------------------------------------
+# NAME:    Spotify Track Info Obtainer 
+# PURPOSE: To return a list of track info given id
+#
+# LAST EDITED BY: Xiaoyu Xie
+# LAST EDITED: 21/11/2020
+# PURPOSE OF EDIT: Final Version
+#-------------------------------------------------------------------------------
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 

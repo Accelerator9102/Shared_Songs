@@ -1,3 +1,11 @@
+#-------------------------------------------------------------------------------
+# NAME:    Spotify Shared Songs Displayer 
+# PURPOSE: To display a webpage with list of shared songs
+#
+# LAST EDITED BY: Xiaoyu Xie
+# LAST EDITED: 21/11/2020
+# PURPOSE OF EDIT: Final Version
+#-------------------------------------------------------------------------------
 import get_library
 import os
 import time

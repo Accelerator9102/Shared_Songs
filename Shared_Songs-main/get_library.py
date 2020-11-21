@@ -1,3 +1,11 @@
+#-------------------------------------------------------------------------------
+# NAME:    Spotify User's Library Obtainer 
+# PURPOSE: To return a list of tracks in user's library
+#
+# LAST EDITED BY: Xiaoyu Xie
+# LAST EDITED: 21/11/2020
+# PURPOSE OF EDIT: Final Version
+#-------------------------------------------------------------------------------
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 
