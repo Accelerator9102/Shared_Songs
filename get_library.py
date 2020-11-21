@@ -11,7 +11,7 @@ def get_library(client_id, client_secret, red_uri):
 
     flag = True
     start = 0
-    list_of_track_id1 = set()
+    list_of_track_id = set()
     results = spo.current_user_saved_tracks(limit=MAX_SIZE, offset=start)
 
     if len(results['items']) < 50:
@@ -19,7 +19,7 @@ def get_library(client_id, client_secret, red_uri):
     for idx, item in enumerate(results['items']):
         track = item['track']
         print(idx, track['artists'][0]['name'], " – ", track['name'])
-        list_of_track_id1.add(track['id'])
+        list_of_track_id.add(track['id'])
 
     while flag:
         start += MAX_SIZE
@@ -30,6 +30,6 @@ def get_library(client_id, client_secret, red_uri):
         for idx, item in enumerate(results['items'], start=start):
             track = item['track']
             print(idx, track['artists'][0]['name'], " – ", track['name'], track['id'])
-            list_of_track_id1.add(track['id'])
+            list_of_track_id.add(track['id'])
 
-    return list_of_track_id1
+    return list_of_track_id
