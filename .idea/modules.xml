@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Shared_Songs.iml" filepath="$PROJECT_DIR$/.idea/Shared_Songs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/spotify playlist compare.iml" filepath="$PROJECT_DIR$/.idea/spotify playlist compare.iml" />
     </modules>
   </component>
 </project>

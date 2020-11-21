@@ -9,7 +9,7 @@ def get_tracks(id_set):
     list_track = []
     for id in id_set:
         track = sp.track(id)
-        string_track = str(idx) + track['artists'][0]['name'] + " – " + track['name']
+        string_track = str(idx) +" "+track['artists'][0]['name'] + " – " + track['name']
         print(string_track)
         list_track.append(string_track)
         idx += 1
